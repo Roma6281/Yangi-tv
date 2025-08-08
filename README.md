@@ -1,4 +1,3 @@
-html_content = """
 <!DOCTYPE html>
 <html lang="uz">
 <head>
@@ -56,9 +55,3 @@ html_content = """
     </div>
 </body>
 </html>
-"""
-
-# Fayl yaratish
-file_path = Path("/mnt/data/index.html")
-file_path.write_text(html_content, encoding="utf-8")
-file_path
